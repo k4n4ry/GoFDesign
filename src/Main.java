@@ -1,8 +1,11 @@
 import Decorator.*;
+import Factory.FactoryExec;
+
 public class Main {
 
     public static void main(String[] args) {
-        main_decorator();
+//        main_decorator();
+        FactoryExec.exec();
     }
 
     private static void main_decorator() {
