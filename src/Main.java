@@ -1,11 +1,13 @@
 import Decorator.*;
 import Factory.FactoryExec;
+import Singleton.SingletonExec;
 
 public class Main {
 
     public static void main(String[] args) {
 //        main_decorator();
-        FactoryExec.exec();
+//        FactoryExec.exec();
+        SingletonExec.exec();
     }
 
     private static void main_decorator() {
