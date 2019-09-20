@@ -1,3 +1,4 @@
+import Builder.BuilderExec;
 import Decorator.*;
 import Factory.FactoryExec;
 import Singleton.SingletonExec;
@@ -7,7 +8,9 @@ public class Main {
     public static void main(String[] args) {
 //        main_decorator();
 //        FactoryExec.exec();
-        SingletonExec.exec();
+//        SingletonExec.exec();
+        BuilderExec exec = new BuilderExec();
+        exec.exec();
     }
 
     private static void main_decorator() {
